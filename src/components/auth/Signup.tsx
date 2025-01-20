@@ -252,7 +252,7 @@ export function Signup() {
 
             <div className="mt-6">
               <a
-                href="/login"
+                href="/project-bolt-sb1-lfquhvem/login"
                 className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-indigo-50 hover:bg-indigo-100"
               >
                 Sign in

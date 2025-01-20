@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Lock, User } from 'lucide-react';
+import { Mail, Lock } from 'lucide-react';
 import { UserRole } from '../../types/auth';
 
 export function Login() {
@@ -133,7 +133,7 @@ export function Login() {
 
             <div className="mt-6">
               <a
-                href="/signup"
+                href="/project-bolt-sb1-lfquhvem/signup"
                 className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-indigo-50 hover:bg-indigo-100"
               >
                 Sign up

@@ -9,13 +9,14 @@ import { ServiceType } from './types';
 function App() {
   const [activeService, setActiveService] = React.useState<ServiceType>('food');
   const path = window.location.pathname;
+  const basePath = '/project-bolt-sb1-lfquhvem';
 
   // Simple routing
-  if (path === '/login') {
+  if (path === `${basePath}/login` || path === '/login') {
     return <Login />;
   }
 
-  if (path === '/signup') {
+  if (path === `${basePath}/signup` || path === '/signup') {
     return <Signup />;
   }
 
