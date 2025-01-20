@@ -37,12 +37,18 @@ export function Header({ activeService, setActiveService }: HeaderProps) {
             </div>
           </div>
           <div className="ml-10 space-x-4">
-            <button className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium hover:bg-opacity-75">
+            <a 
+              href="/login"
+              className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium hover:bg-opacity-75"
+            >
               Sign in
-            </button>
-            <button className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50">
+            </a>
+            <a
+              href="/signup"
+              className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50"
+            >
               Sign up
-            </button>
+            </a>
           </div>
           <div className="lg:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
